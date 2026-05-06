@@ -1,0 +1,16 @@
+# Model weights
+*.pt
+
+# Data
+data/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# IDE
+.idea/
+
+# Output images
+*.png
