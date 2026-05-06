@@ -99,7 +99,7 @@ Linear(384 → 512) → ReLU → Linear(512 → 256) → ReLU → Linear(256 →
 | Regression | 2 (lat, lon) | MSE | `geo_model.pt` |
 | Classifier | N grid cells | CrossEntropy | `geo_classifier.pt` |
 
-The grid uses 2° × 2° cells globally (~222 km per cell side).
+Currently, the grid uses 2° × 2° cells globally (~222 km per cell side).
 
 ## Evaluation Metrics
 
